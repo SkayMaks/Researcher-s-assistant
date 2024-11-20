@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+header, footer {
+    text-align: center;
+}
+main{
+    padding: 20px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.con-form{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main img{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+#intro{
+    padding: 20px;
+}
+.block {
+    position: sticky;
+    top: 65px;
+}
+.example {
+    text-align: left;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7f3ff;
+}
+.list_e{
+    margin-right: 20px;
+}
+.intro_npk p{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.carousel-item {
+    height: 600px; /* Ограничиваем высоту */
+}
+
+.carousel-item img {
+    height: 100%; /* Изображения заполняют высоту */
+    object-fit: cover; /* Сохраняем пропорции изображений */
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Отступ от низа */
+    left: 50%; /* Центрируем текст */
+    transform: translateX(-50%); /* Выравниваем текст по центру */
+    color: white; /* Цвет текста */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для читаемости текста */
+}

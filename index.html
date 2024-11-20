@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заполнения</title>
+    <link rel="stylesheet" href="./static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="text-center ">     
+        <nav class="container-fluid navbar navbar-expand-lg bg-dark fixed-top  " data-bs-theme="dark">
+            <div class="container-fluid  col-sm-8">
+              <a class="navbar-brand" href="#">Помощник  иследователя</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./rec.html">Рекомендации</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./npk.html">Успешные проекты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./templates/form.html">Конструктор</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./gost.html">Положения и ГОСТ указания</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+    <main class="text-center">
+        <div class="container-fluid ">
+            <section id="intro ">
+                <div class="container col-sm-9 text-xl-center d-flex align-items-center ">
+                    <div class="left_intro text-start ">
+                        <h1 class="">Путь к научному успеху: Сайт для юных исследователей</h1>
+                        <p class="mt-4">
+                            Добро пожаловать на сайт, созданный для юных исследователей! 
+                            Здесь вы найдете инструменты и ресурсы, чтобы начать свой путь в науке.
+                        </p>
+                    </div>
+                    <div class="rigth_intro">
+                        <img src="./img/intro.png" alt="" width="400px">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="npk text-start">
+                <div class="container col-sm-9 text-xl-center d-flex flex-column gap-4">
+                    <h1 class="text-start">Успешные работы НПК</h1>
+                    <div class="d-flex justify-content-center gap-5">
+                        <div class="npk_left text-start">
+                            
+                            <h4>Примеры для вдохновения</h4>
+                            <p class="">
+                                Изучите работы победителей прошлых НПК, 
+                                чтобы получить ценные идеи и увидеть, что возможно!
+                            </p>
+                        </div>
+                        <div class="npk_right text-start">
+                            <h4>Скачать бесплатно</h4>
+                            <p class="">
+                                Все работы доступны для скачивания в формате PDF. 
+                                Используйте их для своих исследований!
+                            </p>
+                        </div>    
+                    </div>
+                    <div class="d-grid mx-auto">
+                        <a class="btn btn-outline-dark" href="#" role="button"><img src="./img/npk.png" alt="" width="100%">Перейти в раздел "Успешные НПК"</a>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr>
+            <section id="rec ">
+                <div class="container col-sm-9 text-xl-center d-flex align-items-center ">
+                    <div class="left_rec">
+                        <img src="./img//met.png" alt="" width="400px">
+                    </div>
+                    <div class="right_rec text-start text-start ms-5">
+                        <h1 class="">Методические указания</h1>
+                        <div class="list_rec d-flex flex-nowrap pt-4 pb-4">
+                            <div class="list_e ">
+                                <h3>Формат и стиль</h3>
+                                <p class="">
+                                    Узнайте, как правильно оформлять свою научную работу, 
+                                    чтобы она соответствовала стандартам.    
+                            </div>
+                            <div class="list_e ">
+                                <h3>Структура работы</h3>
+                                <p class="">
+                                    Разберитесь, как правильно структурировать свою работу 
+                                    для логичного и последовательного изложения.    
+                            </div>
+                            
+                        </div>
+                            <div class="list_e">
+                                <h3>Требования к оформлению</h3>
+                                <p class="">
+                                    Получите подробную информацию о требованиях к шрифту, размеру, 
+                                    отступам и другим элементам оформления.
+                        </div>
+                        <div class="d-grid mx-auto">
+                            <a class="btn btn-outline-dark" href="#" role="button">Перейти в раздел "Методические указания"</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="constract">
+                <div class="container col-sm-9 d-flex align-items-center gap-5">
+                    <div class="left_con text-start ">
+                        <h1 class="">Конструктор документа</h1>
+                            <h4>Простой  в использовании</h4>
+                            <p>Начните свою научную работу с помощью нашего удобного конструктора, созданного специально для создания документа Word.
+                            </p>
+                            <a class="btn btn-outline-dark" href="#" role="button">Перейти к конструктору</a>
+                    </div>
+                    <div class="right_con">
+                        <img src="./img/constr.png" alt="" width="400px">
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </div>
+        
+    </main>
+
+    <footer class="border-top">
+        <p>© 2024 Помощник оформления исследовательских работ. <br> Все права защищены.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
